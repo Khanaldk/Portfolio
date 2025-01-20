@@ -1,0 +1,42 @@
+
+ul li{
+    padding: 0rem 1rem;
+    color: white;
+    cursor: pointer;
+
+}
+
+.du {
+  color:white;
+   
+  }
+ 
+  .ga {
+    color: #7562E0;
+  }
+ 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+}
+nav{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #181824;
+}
+* {
+  box-sizing: border-box;
+}
+li {
+  margin: 0;
+  padding: 0;
+}
