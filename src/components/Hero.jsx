@@ -14,7 +14,7 @@ const hero = () => {
     }, [AOS]);
     return (
         <>
-            <section className='bg-darkcolor pt-5 2xl:h-[100vh]  font-poppins px-5 '>
+            <section className='bg-darkcolor pt-10 font-poppins px-5 '>
                 <div className='md:flex justify-around items-center'>
 
                     <div data-aos="fade-right"

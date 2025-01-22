@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="py-3 bg-darkcolor font-poppins relative">
+      <nav className="py-3 bg-darkcolor font-poppins fixed  ">
         <div className="md:flex justify-between items-center px-4">
           {/* Logo */}
           <div className="py-1">
@@ -25,8 +25,9 @@ const Navbar = () => {
           </div>
 
           <ul
-            className={`absolute h-[23vh] lg:h-0  z-100 lg:static lg:flex lg:items-center bg-darkcolor  w-full left-0 md:w-auto transition-all duration-500 ease-in-out ${
-              open ? " top-14 md:top-5 md:left-[40%] opacity-100 z-50" : "-top-96  z-[-1]"
+            className={`absolute h-[39vh] md:h-[22vh] lg:h-0  z-100 lg:static lg:flex 
+              lg:items-center bg-darkcolor  w-full left-0 md:w-auto transition-all duration-500 ease-in-out ${
+              open ? " top-14 md:top-5 md:left-[40%] opacity-100 z-50" : "-top-96 z-50 "
             }`}
           >
             <li className="text-primarycolor py-2 mx-2 text-center">
