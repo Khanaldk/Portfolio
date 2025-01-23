@@ -10,7 +10,6 @@ const Navbar = () => {
     <>
       <nav className="py-3 bg-darkcolor font-poppins fixed  ">
         <div className="md:flex justify-between items-center px-4">
-          {/* Logo */}
           <div className="py-1">
             <h2 className="text-primarycolor font-semibold text-[1.2rem]">
               DU <span className="du">R</span> <span className="du">GA</span>

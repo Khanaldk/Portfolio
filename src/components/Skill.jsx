@@ -5,7 +5,6 @@ import js from '../assets/js2.png'
 import reactjs from '../assets/react2.png'
 import node from '../assets/node4.png'
 import dotnet from '../assets/dotnet.png'
-import bootstrap from '../assets/bootstrap.png'
 
 import 'aos/dist/aos.css';
 import AOS from 'aos';

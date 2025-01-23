@@ -1,5 +1,4 @@
 import React,{useRef,useEffect} from 'react'
-import web from '../assets/web.avif'
 import icon from '../assets/icon.png'
 import 'aos/dist/aos.css'; 
 import AOS from 'aos'; 
