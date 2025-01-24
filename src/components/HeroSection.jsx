@@ -4,7 +4,7 @@ import { FaEye } from "react-icons/fa";
 import { FaUser } from "react-icons/fa6";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-const hero = () => {
+const HeroSection = () => {
     useEffect(() => {
         AOS.init({
             duration: 1200,
@@ -52,4 +52,4 @@ const hero = () => {
     )
 }
 
-export default hero
+export default HeroSection
