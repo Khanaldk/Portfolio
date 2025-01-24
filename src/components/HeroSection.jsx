@@ -21,7 +21,7 @@ const HeroSection = () => {
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine" className=' md:pl-16 md:p-5 '>
                         <span className='text-whitecolor font-semibold '>Hello, I’m</span>
-                        <h2 className='font-semibold text-whitecolor mt-2 text-[1.6rem]'>Durga Khanal</h2>
+                        <h2 className='font-semibold text-whitecolor mt-2 text-[1.6rem]'>Durga Khanal(DK)</h2>
                         <p className='text-justify mt-3 mb-5 text-whitecolor w-[80%] text-[0.9rem]'>A passionate and enthusiastic Web Developer skilled in React.js, Node.js, and .NET, crafting seamless and dynamic web applications. </p>
                         <div className="flex items-center space-x-4">
                             <button className=" text-whitecolor bg-primarycolor border-primarycolor hover:bg-darkcolor flex items-center space-x-2 border-2 px-4 py-2 rounded-[0.4rem] text-[0.8rem]">
