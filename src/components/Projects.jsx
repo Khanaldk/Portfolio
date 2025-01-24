@@ -5,6 +5,7 @@ import happy from '../assets/happy.jpg'
 import tic from '../assets/tic.jpg'
 import 'aos/dist/aos.css'; 
 import AOS from 'aos'; 
+import { FaEye } from "react-icons/fa";
 
 const Projects = () => {
       useEffect(() => {
@@ -32,8 +33,8 @@ const Projects = () => {
                             <button className=" text-whitecolor border-primarycolor hover:bg-primarycolor px-4 flex items-center space-x-2 border-2 py-2 rounded-[0.4rem] text-[0.8rem]">
                             <span><a href="https://github.com/Khanaldk/Medimitra_Frontend" target='_blank'>Github Repo</a></span>
                                 </button>
-                                <button className=" text-whitecolor bg-primarycolor border-primarycolor hover:bg-darkcolor flex items-center space-x-2 border-2 px-6 py-2 rounded-[0.4rem] text-[0.8rem]">
-                                    <span>View Live</span>
+                                <button className=" text-whitecolor bg-primarycolor border-primarycolor hover:bg-darkcolor flex items-center space-x-2 border-2 px-3 py-2 rounded-[0.4rem] text-[0.8rem]">
+                                    <span>View Live</span> <FaEye className='' />
                                 </button>
                                
                             </div>
@@ -46,8 +47,8 @@ const Projects = () => {
                             <button className=" text-whitecolor border-primarycolor hover:bg-primarycolor px-4 flex items-center space-x-2 border-2 py-2 rounded-[0.4rem] text-[0.8rem]">
                                     <span><a href="https://github.com/Khanaldk/HappyCoaching-ReactJs/tree/master" target='_blank'>Github Repo</a></span>
                                 </button>
-                                <button className=" text-whitecolor bg-primarycolor border-primarycolor hover:bg-darkcolor flex items-center space-x-2 border-2 px-6 py-2 rounded-[0.4rem] text-[0.8rem]">
-                                    <span><a href="https://ui-happy-coaching.netlify.app/" target='_blank'>View Live</a></span>
+                                <button className=" text-whitecolor bg-primarycolor border-primarycolor hover:bg-darkcolor flex items-center space-x-2 border-2 px-3 py-2 rounded-[0.4rem] text-[0.8rem]">
+                                    <span><a href="https://ui-happy-coaching.netlify.app/" target='_blank'>View Live</a></span> <FaEye className='' />
                                 </button>
                                
                             </div>
@@ -60,8 +61,8 @@ const Projects = () => {
                             <button className=" text-whitecolor border-primarycolor hover:bg-primarycolor px-4 flex items-center space-x-2 border-2 py-2 rounded-[0.4rem] text-[0.8rem]">
                             <span><a href="https://github.com/Khanaldk/Furniro-Website-ReactJS/tree/master" target='_blank'>Github Repo</a></span>
                                 </button>
-                                <button className=" text-whitecolor bg-primarycolor border-primarycolor hover:bg-darkcolor flex items-center space-x-2 border-2 px-6 py-2 rounded-[0.4rem] text-[0.8rem]">
-                                    <span><a href="https://furniro-site.netlify.app/" target='_blank'>View Live</a></span>
+                                <button className=" text-whitecolor bg-primarycolor border-primarycolor hover:bg-darkcolor flex items-center space-x-2 border-2 px-3 py-2 rounded-[0.4rem] text-[0.8rem]">
+                                    <span><a href="https://furniro-site.netlify.app/" target='_blank'>View Live</a></span> <FaEye className='' />
                                 </button>
                                
                             </div>
@@ -74,8 +75,8 @@ const Projects = () => {
                             <button className=" text-whitecolor border-primarycolor hover:bg-primarycolor px-4 flex items-center space-x-2 border-2 py-2 rounded-[0.4rem] text-[0.8rem]">
                             <span><a href="https://github.com/Khanaldk/tictactoe_game/tree/master" target='_blank'>Github Repo</a></span>
                                 </button>
-                                <button className=" text-whitecolor bg-primarycolor border-primarycolor hover:bg-darkcolor flex items-center space-x-2 border-2 px-6 py-2 rounded-[0.4rem] text-[0.8rem]">
-                                    <span><a href="https://tic-tac-toe-by-durga-khanal.netlify.app/" target='_blank'>View Live</a></span>
+                                <button className=" text-whitecolor bg-primarycolor border-primarycolor hover:bg-darkcolor flex items-center space-x-2 border-2 px-3 py-2 rounded-[0.4rem] text-[0.8rem]">
+                                    <span><a href="https://tic-tac-toe-by-durga-khanal.netlify.app/" target='_blank'>View Live</a></span> <FaEye className='' />
                                 </button>
                                
                             </div>

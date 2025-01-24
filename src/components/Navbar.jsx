@@ -24,9 +24,9 @@ const Navbar = () => {
           </div>
 
           <ul
-            className={`absolute h-[39vh] md:h-[22vh] lg:h-0  z-100 lg:static lg:flex 
+            className={`absolute h-[38vh] md:h-[22vh] lg:h-0  z-100 lg:static lg:flex 
               lg:items-center bg-darkcolor  w-full left-0 md:w-auto transition-all duration-500 ease-in-out ${
-              open ? " top-14 md:top-5 md:left-[40%] opacity-100 z-50" : "-top-96 z-50 "
+              open ? " top-10 md:top-5 md:left-[40%] opacity-100 z-50" : "-top-96 z-50 "
             }`}
           >
             <li className="text-primarycolor py-2 mx-2 text-center">
@@ -44,11 +44,11 @@ const Navbar = () => {
             <li className="hover:text-primarycolor py-2 mx-2 text-center">
               <a href="#contact">Contact</a>
             </li>
-            <li className="mx-2 text-center">
+            <li className="mx-2  text-center">
               <a
                 href="/NodejsCVDurgaKhanal.pdf"
                 download="My_CV.pdf"
-                className="border-2 px-4 py-2 rounded-[0.4rem] border-primarycolor flex items-center justify-center space-x-2 hover:bg-primarycolor text-[0.8rem]"
+                className="border-2 px-4 py-2  rounded-[0.4rem] border-primarycolor flex items-center justify-center space-x-2 hover:bg-primarycolor text-[0.8rem]"
               >
                 <span>Download CV</span>
                 <MdFileDownload className="text-[1rem]" />
