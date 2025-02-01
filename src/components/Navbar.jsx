@@ -47,7 +47,7 @@ const Navbar = () => {
             <li className="mx-2  text-center">
               <a
                 href="/NodejsCVDurgaKhanal.pdf"
-                download="My_CV.pdf"
+                download="DurgaKhanalCV.pdf"
                 className="border-2 px-4 py-2  rounded-[0.4rem] border-primarycolor flex items-center justify-center space-x-2 hover:bg-primarycolor text-[0.8rem]"
               >
                 <span>Download CV</span>
